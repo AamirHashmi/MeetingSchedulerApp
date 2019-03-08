@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateMeeting">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="false"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/meetingNameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="Name"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/nameInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/meetingDescText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="Description"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/descInput"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+
+
+            <Button
+                android:id="@+id/selectUsersBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="invite" />
+
+            <Button
+                android:id="@+id/makeMeetingBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ShowDates " />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ListView
+                    android:id="@+id/availableTimes"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"></ListView>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/confirmMeetingBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Confirm meeting" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "301430173057",
+    "firebase_url": "https://meetingapp-c30a0.firebaseio.com",
+    "project_id": "meetingapp-c30a0",
+    "storage_bucket": "meetingapp-c30a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301430173057:android:0fbe9291758b8f5e",
+        "android_client_info": {
+          "package_name": "com.example.aamir.meetingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301430173057-5tdjje7sfiu6at06615pj2k909dvqp1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6wYU2O3xqEkMr4QA9RALHCaNPhYZ9zTA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
